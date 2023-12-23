@@ -8,7 +8,7 @@ import { ProfileRowComponent } from "../profile-row/profile-row.component";
     styleUrl: './proposals.component.scss',
     imports: [ProfileRowComponent]
 })
-export class ProposalsComponent implements OnInit{
+export class ProposalsComponent implements OnInit {
     names = ["Marius", "Lennard", "Simba", "Lissi"];
     texts = ["2 Jahre", "funny guy", "mag Mäuse", "mag Sonne"];
     images = ["assets/img/pet-images/cristian-castillo-73pyV0JJOmE-unsplash.jpg",
@@ -16,7 +16,6 @@ export class ProposalsComponent implements OnInit{
     constructor() {}
     
     ngOnInit(): void {
-        throw new Error('Method not implemented.');
     }
 
 }
